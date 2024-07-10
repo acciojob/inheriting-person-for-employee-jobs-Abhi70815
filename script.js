@@ -4,7 +4,7 @@ function Person(name, age) {
 	this.age=age;
 	
 }
-person.prototype.greet=function(){
+Person.prototype.greet=function(){
 return `Hello, my name is ${this.name}, I am ${this.age} years old.`
 }
 
